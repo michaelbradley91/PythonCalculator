@@ -3,6 +3,11 @@ from py_expression_eval import Parser
 
 
 def button_pressed(button: str):
+	global clear_next
+	if clear_next:
+		clear_next = False
+		output.text = ''
+		
 	output.text += button
 
 def one_pressed(sender):
@@ -50,16 +55,38 @@ def plus_pressed(sender):
 def minus_pressed(sender):
 	button_pressed('-')
 
+def power_pressed(sender):
+	button_pressed('**')
+
+def open_bracket_pressed(sender):
+	button_pressed('(')
+
+def close_bracket_pressed(sender):
+	button_pressed(')')
+
+def delete_pressed(sender):
+	output.text = output.text[:-1]
+
 def equals_pressed(sender):
+	global clear_next
+	
+	expression = output.text
+	clear_next = True
+	
 	parser = Parser()
-	result.text = str(parser.parse(output.text).evaluate({}))
-	output.text = ''
+	try:
+		result.text = str(parser.parse(expression).evaluate({}))
+	except Exception:
+		result.text = 'What? 🧐'
+	
 
 def init():
-	output.text = ''
+	output.text = 'Ready! 🙂'
 
 v = ui.load_view()
+v.name = 'Calculator'
 
+clear_next = True
 output = v['output']
 result = v['result']
 
