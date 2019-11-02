@@ -8,16 +8,16 @@
         "frame" : "{{0, 0}, {445, 67}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "output",
           "flex" : "W",
-          "border_width" : 2,
+          "border_width" : 0,
+          "font_size" : 40,
           "frame" : "{{142, 202}, {150, 32}}",
           "uuid" : "C51C695B-6160-4675-9D7A-1ACD7CCFAD0E",
           "class" : "Label",
           "alignment" : "right",
           "text" : "Label",
-          "corner_radius" : 2,
-          "font_size" : 30,
+          "corner_radius" : 0,
+          "name" : "output",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -31,6 +31,7 @@
         "attributes" : {
           "action" : "zero_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.014151,0.014151,0.014151,1.000000)",
           "title" : "0",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
           "class" : "Button",
@@ -48,6 +49,7 @@
         "attributes" : {
           "action" : "one_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.070755,0.070755,0.070755,1.000000)",
           "title" : "1",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -65,6 +67,7 @@
         "attributes" : {
           "action" : "four_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "4",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -82,6 +85,7 @@
         "attributes" : {
           "action" : "seven_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "7",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -99,6 +103,7 @@
         "attributes" : {
           "action" : "five_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "5",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -116,6 +121,7 @@
         "attributes" : {
           "action" : "two_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.212264,0.212264,0.212264,1.000000)",
           "title" : "2",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -133,6 +139,7 @@
         "attributes" : {
           "action" : "dot_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.155660,0.155660,0.155660,1.000000)",
           "title" : ".",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -150,6 +157,7 @@
         "attributes" : {
           "action" : "eight_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "8",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -167,6 +175,7 @@
         "attributes" : {
           "action" : "equals_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "=",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -184,6 +193,7 @@
         "attributes" : {
           "action" : "three_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "3",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -201,6 +211,7 @@
         "attributes" : {
           "action" : "six_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "6",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -218,6 +229,7 @@
         "attributes" : {
           "action" : "nine_pressed",
           "frame" : "{{177, 202}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "title" : "9",
           "class" : "Button",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6",
@@ -304,7 +316,7 @@
           "name" : "button1",
           "uuid" : "2F5A26B0-4977-4C21-8B4D-4E660C14E8F6"
         },
-        "selected" : false
+        "selected" : true
       },
       {
         "nodes" : [
