@@ -1,4 +1,6 @@
 import ui
+from py_expression_eval import Parser
+
 
 def button_pressed(button: str):
 	output.text += button
@@ -35,9 +37,23 @@ def zero_pressed(sender):
 
 def dot_pressed(sender):
 	button_pressed('.')
+	
+def times_pressed(sender):
+	button_pressed('*')
+
+def divide_pressed(sender):
+	button_pressed('/')
+
+def plus_pressed(sender):
+	button_pressed('+')
+
+def minus_pressed(sender):
+	button_pressed('-')
 
 def equals_pressed(sender):
-	button_pressed('=')
+	parser = Parser()
+	result.text = str(parser.parse(output.text).evaluate({}))
+	output.text = ''
 
 def init():
 	output.text = ''
@@ -45,6 +61,8 @@ def init():
 v = ui.load_view()
 
 output = v['output']
+result = v['result']
+
 init()
 
 v.present('sheet')

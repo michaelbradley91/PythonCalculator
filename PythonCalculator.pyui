@@ -5,20 +5,21 @@
         "nodes" : [
 
         ],
-        "frame" : "{{0, 0}, {359, 67}}",
+        "frame" : "{{6, 0}, {344, 74}}",
         "class" : "Label",
         "attributes" : {
-          "flex" : "W",
-          "border_width" : 0,
-          "font_size" : 40,
-          "frame" : "{{142, 202}, {150, 32}}",
           "uuid" : "C51C695B-6160-4675-9D7A-1ACD7CCFAD0E",
-          "class" : "Label",
+          "font_size" : 40,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(0.825472,0.825472,0.825472,1.000000)",
+          "frame" : "{{142, 202}, {150, 32}}",
+          "border_width" : 0,
           "alignment" : "right",
           "text" : "Label",
-          "corner_radius" : 0,
+          "font_name" : "<System>",
+          "class" : "Label",
           "name" : "output",
-          "font_name" : "<System>"
+          "flex" : "W"
         },
         "selected" : false
       },
@@ -26,7 +27,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 349}, {80, 81}}",
+        "frame" : "{{6, 424}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "zero_pressed",
@@ -44,7 +45,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 260}, {80, 81}}",
+        "frame" : "{{6, 335}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "one_pressed",
@@ -62,7 +63,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 171}, {80, 81}}",
+        "frame" : "{{6, 246}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "four_pressed",
@@ -80,7 +81,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 82}, {80, 81}}",
+        "frame" : "{{0, 157}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "seven_pressed",
@@ -98,7 +99,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{94, 171}, {80, 81}}",
+        "frame" : "{{95, 246}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "five_pressed",
@@ -116,7 +117,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{94, 260}, {80, 81}}",
+        "frame" : "{{101, 335}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "two_pressed",
@@ -134,7 +135,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{94, 349}, {80, 81}}",
+        "frame" : "{{94, 424}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "dot_pressed",
@@ -152,7 +153,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{94, 82}, {80, 81}}",
+        "frame" : "{{94, 157}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "eight_pressed",
@@ -170,7 +171,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{182, 349}, {80, 81}}",
+        "frame" : "{{182, 424}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "equals_pressed",
@@ -188,7 +189,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{182, 260}, {80, 81}}",
+        "frame" : "{{182, 335}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "three_pressed",
@@ -206,7 +207,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{182, 171}, {80, 81}}",
+        "frame" : "{{183, 246}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "six_pressed",
@@ -224,7 +225,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{182, 82}, {80, 81}}",
+        "frame" : "{{182, 157}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "nine_pressed",
@@ -242,7 +243,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{270, 349}, {80, 81}}",
+        "frame" : "{{270, 424}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "divide_pressed",
@@ -260,7 +261,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{270, 82}, {80, 81}}",
+        "frame" : "{{270, 157}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "plus_pressed",
@@ -272,13 +273,13 @@
           "font_size" : 30,
           "name" : "plus"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{270, 260}, {80, 81}}",
+        "frame" : "{{271, 335}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "times_pressed",
@@ -296,7 +297,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{270, 171}, {80, 81}}",
+        "frame" : "{{271, 246}, {80, 81}}",
         "class" : "Button",
         "attributes" : {
           "action" : "minus_pressed",
@@ -309,9 +310,31 @@
           "name" : "minus"
         },
         "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 82}, {344, 67}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "C51C695B-6160-4675-9D7A-1ACD7CCFAD0E",
+          "font_size" : 40,
+          "corner_radius" : 0,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{142, 202}, {150, 32}}",
+          "border_width" : 0,
+          "alignment" : "right",
+          "text" : "0",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "result",
+          "flex" : "W"
+        },
+        "selected" : false
       }
     ],
-    "frame" : "{{0, 0}, {359, 439}}",
+    "frame" : "{{0, 0}, {357, 511}}",
     "class" : "View",
     "attributes" : {
       "enabled" : true,
