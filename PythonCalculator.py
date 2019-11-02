@@ -65,6 +65,11 @@ def close_bracket_pressed(sender):
 	button_pressed(')')
 
 def delete_pressed(sender):
+	global clear_next
+	if clear_next:
+		clear_next = False
+		output.text = ''
+	
 	output.text = output.text[:-1]
 
 def equals_pressed(sender):
